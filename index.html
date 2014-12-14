@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="author" content="foolman">
+	<link href="css/bootstrap-full.css" rel="stylesheet">
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/grid-system.css" rel="stylesheet">
+	<link href="css/buttons.css" rel="stylesheet">
+	<link href="css/panels.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<title>ExtremeParty</title>
+</head>
+<body>
+	<div class="container">
+		<header>
+
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
+					<a href="#"><img src="img/logo.png" class="logo" alt="logo"></a>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					<div class="row header-contact-block">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span>Днепропетровск</span>
+								</div>
+								<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+									<p class="mobile-ico"></p>
+								</div>
+								<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+									<ul>
+										<li>067 633-83-44</li>
+										<li>050 363-23-31</li>
+										<li>056 791-12-10</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<span>Киев</span>
+								</div>
+								<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+									<p class="mobile-ico"></p>
+								</div>
+								<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+									<ul>
+										<li>067 633-83-44</li>
+										<li>050 363-23-31</li>
+										<li>056 791-12-10</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
+					<div class="no-time-block">
+						<p>Нет времени <span>на подбор тура</span>?</p>
+						<p><button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#request">ОСТАВИТЬ ЗАЯВКУ</button></p>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="row row-offcanvas row-offcanvas-left">
+			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 sidebar-offcanvas" id="sidebar" role="navigation">
+
+				<aside>
+
+
+					<!--==============================================================-->
+					<div class="panel-group" id="accordion">
+
+
+						<div class="panel panel-filter-top">
+							<div class="panel-heading">
+								<div class="panel-title">
+									<h3>Подобрать тур</h3>
+									<p>Выберите страну или желаемый вид отдыха</p>
+								</div>
+
+							</div>
+							<div class="filter-arrow"></div>
+
+						</div>
+
+
+						<div class="panel panel-accordion">
+							<div class="panel-heading active">
+								<h4 class="panel-title">
+									<a onclick="acr()" data-toggle="collapse" data-parent="#accordion" href="#collapse1">Азия</a>
+
+								</h4>
+							</div>
+							<div id="collapse1" class="panel-collapse collapse in">
+								<div class="panel-body">
+									<ul>
+										<li><a href="/"><span>Тибет</span></a></li>
+										<li><a href="/"><span>Пакистан</span></a></li>
+										<li><a href="/"><span>Кыргызстан</span></a></li>
+										<li><a href="/"><span>Индия</span></a></li>
+										<li><a href="/"><span>Непал</span></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-accordion">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a onclick="acr()" data-toggle="collapse" data-parent="#accordion" href="#collapse2">Европа</a>
+								</h4>
+							</div>
+							<div id="collapse2" class="panel-collapse collapse">
+								<div class="panel-body">
+									<ul>
+										<li><a href="/"><span>Грузия</span></a></li>
+										<li><a href="/"><span>Армения</span></a></li>
+										<li><a href="/"><span>Чехия</span></a></li>
+										<li><a href="/"><span>Польша</span></a></li>
+										<li><a href="/"><span>Турция</span></a></li>
+										<li><a href="/"><span>Альпы</span></a></li>
+										<li><a href="/"><span>Россия</span></a></li>
+										<li><a href="/"><span>Австрия</span></a></li>
+										<li><a href="/"><span>Италия</span></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-accordion">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a onclick="acr()" data-toggle="collapse" data-parent="#accordion" href="#collapse3">Южная Америка</a>
+
+								</h4>
+							</div>
+							<div id="collapse3" class="panel-collapse collapse">
+								<div class="panel-body">
+									<ul>
+										<li><a href="/"><span>Мексика</span></a></li>
+										<li><a href="/"><span>Боливия</span></a></li>
+										<li><a href="/"><span>Аргентина</span></a></li>
+										<li><a href="/"><span>Эквадор</span></a></li>
+										<li><a href="/"><span>Перу</span></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-accordion">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a onclick="acr()" data-toggle="collapse" data-parent="#accordion" href="#collapse4">Украина</a>
+
+								</h4>
+							</div>
+							<div id="collapse4" class="panel-collapse collapse">
+								<div class="panel-body">
+									<ul>
+										<li><a href="/"><span>Карпаты</span></a></li>
+										<li><a href="/"><span>Южный Буг</span></a></li>
+										<li><a href="/"><span>Центральная Украина</span></a></li>
+										<li><a href="/"><span>Крым</span></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-accordion">
+							<div class="panel-heading last">
+								<h4 class="panel-title">
+									<a onclick="acr()" data-toggle="collapse" data-parent="#accordion" href="#collapse5">Россия</a>
+
+								</h4>
+							</div>
+							<div id="collapse5" class="panel-collapse collapse">
+								<div class="panel-body last">
+									<ul>
+										<li><a href="/"><span>Камчатка</span></a></li>
+										<li><a href="/"><span>Таймыр</span></a></li>
+										<li><a href="/"><span>Хамар-Дабан</span></a></li>
+										<li><a href="/"><span>Алтай</span></a></li>
+										<li><a href="/"><span>Саяны</span></a></li>
+										<li><a href="/"><span>Кольский полуостров</span></a></li>
+										<li><a href="/"><span>Кавказ</span></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--==============================================================-->
+
+
+
+					<!--==============================================================-->
+
+					<div class="panel panel-filter-bottom">
+						<div class="panel-heading">
+							<div class="panel-title">
+								<h3>По видам отдыха</h3>
+							</div>
+						</div>
+						<div class="filter-arrow"></div>
+						<div class="panel-body">
+							<ul>
+								<li><a href="/"><span>Дайвинг-сафари</span></a></li>
+								<li><a href="/"><span>Корпоративный отдых</span></a></li>
+								<li><a href="/"><span>Молодежный отдых</span></a></li>
+								<li><a href="/"><span>Морская рыбалка</span></a></li>
+								<li><a href="/"><span>Новогодний отдых</span></a></li>
+								<li><a href="/"><span>Яхтинг</span></a></li>
+								<li><a href="/"><span>Рафтинг</span></a></li>
+								<li><a href="/"><span>Сплав на байдарках</span></a></li>
+								<li><a href="/"><span>Восхождения</span></a></li>
+								<li><a href="/"><span>Треккинг</span></a></li>
+								<li><a href="/"><span>Рыбалка</span></a></li>
+								<li><a href="/"><span>Пещеры</span></a></li>
+								<li><a href="/"><span>Скалолазание</span></a></li>
+								<li><a href="/"><span>Детский отдых</span></a></li>
+								<li><a href="/"><span>Сафари</span></a></li>
+								<li><a href="/"><span>Отдых на океане</span></a></li>
+								<li><a href="/"><span>Экскурсионные</span></a></li>
+								<li><a href="/"><span>Этнические</span></a></li>
+								<li><a href="/"><span>Комбинированные</span></a></li>
+								<li><a href="/"><span>Каньонинг</span></a></li>
+								<li><a href="/"><span>Арбористика</span></a></li>
+								<li><a href="/"><span>Горные лыжи</span></a></li>
+								<li><a href="/"><span>Велосипедные</span></a></li>
+								<li><a href="/"><span>Мототуры</span></a></li>
+
+
+							</ul>
+						</div>
+					</div>
+
+					<!--==============================================================-->
+
+
+				</aside>
+			</div><!--============================/sidebar==================================-->
+
+			<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+
+				<nav class="navbar navbar-blue" role="navigation">
+
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="/">Меню</a>
+					</div>
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="/">О нас</a></li>
+							<li><a href="/">Календарь туров</a></li>
+							<li><a href="/">Гиды</a></li>
+							<li><a href="/">Отзывы</a></li>
+							<li><a href="/">фотоотчёты</a></li>
+							<li><a href="/">Видео</a></li>
+							<li><a href="/">Блог</a></li>
+							<li class="last"><a href="/">Контакты</a></li>
+						</ul>
+					</div><!-- /.nav-collapse -->
+
+				</nav><!-- /.navbar -->
+
+				<div class="pull-left visible-xs">	 
+					<button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Фильтр</button>
+				</div><br>
+
+
+
+				<div class="content">
+					
+				</div>
+
+
+
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+	</div>
+	<footer>
+		<div class="row bg-blue">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-2">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 footer-logo">
+									<a href="#"><img src="img/logo-footer.png" alt="logo"></a>
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 social">
+									<a class="social-facebook" href="/"></a>
+									<a class="social-vk" href="/"></a>
+									<a class="social-twitter" href="/"></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+							<address>
+								<p>Киев, ул. Красноармейская 94, офис 121</p>
+								<p>Телефон: +38 067 455 55 44</p>
+								<br>
+								<p>Днепропетровск, ул. Короленко 8</p>
+								<p>Телефон: +38(0562) 33-74-77</p>
+								<br>
+								<p><span class="skype-img" href="/"></span><a href="callto:info@extremeparty.ua">extreme_rafting</a></p><br>
+								<p><span class="email-img" href="/"></span><a href="mailto:info@extremeparty.ua">info@extremeparty.ua</a></p>
+							</address>
+						</div>
+						
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-5">
+							<div class="row footer-links">
+								<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+									
+
+									<div class="row">
+										<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+											<p>Популярные направления</p>
+											<hr>
+										</div>
+										<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+											<ul>
+												<li><a href="/">Непал</a></li>
+												<li><a href="/">Тибет</a></li>
+												<li><a href="/">Австралия</a></li>
+											</ul>
+										</div>
+										<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+											<ul>
+												<li><a href="/">Перу</a></li>
+												<li><a href="/">Эквадор</a></li>
+												<li><a href="/">Крым</a></li>
+											</ul>
+										</div>
+									</div>
+
+
+
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+
+									<div class="row">
+										<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+											<p>Виды отдыха</p>
+											<hr>
+										</div>
+										<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+											<ul>
+												<li><a href="/">Рафтинг</a></li>
+												<li><a href="/">Яхтинг</a></li>
+												<li><a href="/">Мототуры</a></li>
+
+											</ul>
+										</div>
+										<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+											<ul>
+												<li><a href="/">Горные лыжи</a></li>
+												<li><a href="/">Рыбалка</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-2">
+							<div class="footer-other">
+								<ul>
+									<li><a href="/"><strong>Партнерам</strong></a></li>
+									<li><a href="/">Карта сайта</a></li>
+									<li><a href="/">Путевые заметки</a></li>
+									<li><a href="/"><strong>Корпоративным клиентам</strong></a></li>
+								</ul>
+							</div>
+						</div>
+
+
+
+
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row bg-darkblue">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 copyright">
+				<p class="">Все права защищены © eXtreme party 2014</p>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+
+	<script>
+	function acr() {
+		$('.panel-heading').click(function(){
+			$('.panel-heading').removeClass('active');
+			$(this).addClass('active');
+		}); };
+		</script>
+		<script src="js/jquery-2.1.1.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/offcanvas.js"></script>
+	</body>
+	</html>
