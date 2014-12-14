@@ -46,6 +46,8 @@ span {
 	background: url("../img/mobile-ico.png") 100% 100% no-repeat;
 	float: left;
 	margin-top: 10px;
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 .header-contact-block {
 	padding-left: 50px;
@@ -356,7 +358,7 @@ span {
 * --------------------------------------------------
 */
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 979px) {
 	.row-offcanvas {
 		position: relative;
 		-webkit-transition: all .25s ease-out;
@@ -494,12 +496,6 @@ address, .footer-links {
 	margin-right: 10px;
 }
 
-
-
-
-
-
-
 /*::-webkit-scrollbar {
     width: 12px;
 }
@@ -509,3 +505,200 @@ address, .footer-links {
 ::-webkit-scrollbar-thumb:window-inactive {
 	background: rgba(0,134,205,0.4); 
 }*/
+/*@media only screen and (min-width: 1180px) and (max-width: 1600px) {
+  body:before {
+	content: "screen and min1180 and max1600";
+}*/
+@media only screen and (min-width: 1600px) and (max-width: 1950px) {
+body:before {
+	content: "screen and max1600 and max1950";
+}
+.navbar-blue .navbar-nav > li > a {
+padding-left: 20px;
+padding-right: 20px;
+font-size: 18px;
+}
+
+}
+@media only screen and (min-width: 1390px) and (max-width: 1600px) {
+body:before {
+	content: "screen and max1390 and max1600";
+}
+.navbar-blue .navbar-nav > li > a {
+padding-left: 15px;
+padding-right: 15px;
+font-size: 16px;
+}
+
+}
+@media only screen and (min-width: 1180px) and (max-width: 1390px) {
+body:before {
+	content: "screen and max1180 and max1390";
+}
+.navbar-blue .navbar-nav > li > a {
+padding-left: 15px;
+padding-right: 15px;
+font-size: 15px;
+}
+
+}
+@media only screen and (min-width: 979px) and (max-width: 1180px) {
+ body:before {
+	content: "screen and max979 and max1180";
+}
+.logo {
+	width: 220px;
+}
+.header-contact-block span {
+	font-size: 20px;
+}
+.header-contact-block ul {
+	margin-left: 0;
+}
+.header-contact-block ul li {
+	font-size: 14px;
+}
+.no-time-block .btn-lg {
+	height: 45px;
+	font-size: 18px;
+}
+.navbar-blue .navbar-nav > li > a {
+padding-left: 12px;
+padding-right: 12px;
+font-size: 13px;
+}
+}
+@media only screen and (max-width: 979px) {
+ body:before {
+	content: "screen and max979";
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  body:before {
+	content: "screen and min768 and max979";
+}
+.logo {
+	width: 220px;
+}
+.header-contact-block span {
+	font-size: 18px;
+}
+.header-contact-block ul {
+	margin-left: 0;
+}
+.header-contact-block ul li {
+	font-size: 12px;
+}
+.no-time-block .btn-lg {
+	width: 50%;
+	height: 36px;
+	font-size: 12px;
+	border-radius: 4px;
+}
+.navbar-blue .navbar-nav > li > a {
+padding-left: 14px;
+padding-right: 14px;
+font-size: 13px;
+}
+.navbar-brand {
+	display: none;
+}
+}
+@media only screen and (max-width: 767px) {
+body:before {
+	content: "screen and max767";
+}
+.logo {
+	width: 170px;
+}
+.header-contact-block span {
+	font-size: 16px;
+}
+.header-contact-block ul li {
+	font-size: 12px;
+}
+.header-contact-block ul {
+margin-left: 0px;
+font-size: 10px;
+}
+.no-time-block p {
+font-size: 14px;
+text-align: center;
+}
+.no-time-block .btn-lg {
+	width: 50%;
+	height: 36px;
+	font-size: 12px;
+	border-radius: 4px;
+}
+.navbar-blue .navbar-nav > li {
+	border-right: none;
+
+}
+
+}
+@media (max-width: 520px) {
+/*  body:before {
+	content: "max520";
+}*/
+}
+@media (max-width: 500px) {
+/*  body:before {
+	content: "max500";
+}*/
+}
+@media (max-width: 480px) {
+/*body:before {
+	content: "max480";
+}*/
+.logo {
+	width: 75px;
+}
+.header-contact-block span {
+	font-size: 10px;
+}
+.header-contact-block ul li {
+	font-size: 8px;
+	margin: 0;
+}
+.header-contact-block ul {
+margin-left: 0px;
+font-size: 10px;
+}
+.no-time-block p {
+font-size: 10px;
+text-align: center;
+margin-bottom: 5px;
+}
+.no-time-block .btn-lg {
+	width: 30%;
+	height: 20px;
+	font-size: 7px;
+	border-radius: 4px;
+	padding-top: 5px;
+}
+.mobile-ico {
+width: 15px;
+height: 25px;
+margin: 0;
+
+}
+.header-contact-block {
+padding: 0;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+padding-left: 5px;
+padding-right: 5px;
+}
+
+}
+@media (max-width: 380px) {
+/*body:before {
+	content: "max380";
+}*/
+}
+@media only screen and (max-width: 320px) {
+/* body:before {
+	content: "screen and max320";
+}*/
+}
