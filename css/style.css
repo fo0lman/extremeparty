@@ -40,6 +40,9 @@ span {
 	height: 100%;
 	margin: 10px;
 }
+.centered {
+	text-align: center;
+}
 .mobile-ico{
 	width: 23px;
 	height: 39px;
@@ -529,6 +532,18 @@ padding-left: 15px;
 padding-right: 15px;
 font-size: 16px;
 }
+.panel .panel-heading .panel-title a {
+font-size: 18px;
+}
+.panel-accordion > .panel-heading {
+height: 65px;
+}
+.panel-accordion > .panel-heading.active {
+height: 65px;
+}
+.panel-filter-bottom > .panel-heading {
+height: 100px;
+}
 
 }
 @media only screen and (min-width: 1180px) and (max-width: 1390px) {
@@ -539,6 +554,18 @@ body:before {
 padding-left: 15px;
 padding-right: 15px;
 font-size: 15px;
+}
+.panel .panel-heading .panel-title a {
+font-size: 18px;
+}
+.panel-accordion > .panel-heading {
+height: 65px;
+}
+.panel-accordion > .panel-heading.active {
+height: 65px;
+}
+.panel-filter-bottom > .panel-heading {
+height: 100px;
 }
 
 }
@@ -566,6 +593,18 @@ font-size: 15px;
 padding-left: 12px;
 padding-right: 12px;
 font-size: 13px;
+}
+.panel .panel-heading .panel-title a {
+font-size: 18px;
+}
+.panel-accordion > .panel-heading {
+height: 65px;
+}
+.panel-accordion > .panel-heading.active {
+height: 65px;
+}
+.panel-filter-bottom > .panel-heading {
+height: 100px;
 }
 }
 @media only screen and (max-width: 979px) {
@@ -610,6 +649,7 @@ body:before {
 }
 .logo {
 	width: 170px;
+	float: none;
 }
 .header-contact-block span {
 	font-size: 16px;
