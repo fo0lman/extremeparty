@@ -543,6 +543,16 @@ height: 65px;
 }
 .panel-filter-bottom > .panel-heading {
 height: 100px;
+padding-top: 20px;
+}
+.panel .panel-heading .panel-title h3 {
+font-size: 22px;
+}
+.panel-title {
+font-size: 14px;
+}
+.panel .panel-body ul {
+font-size: 17px;
 }
 
 }
@@ -555,9 +565,6 @@ padding-left: 15px;
 padding-right: 15px;
 font-size: 15px;
 }
-.panel .panel-heading .panel-title a {
-font-size: 18px;
-}
 .panel-accordion > .panel-heading {
 height: 65px;
 }
@@ -566,8 +573,20 @@ height: 65px;
 }
 .panel-filter-bottom > .panel-heading {
 height: 100px;
+padding-top: 20px;
 }
-
+.panel .panel-heading .panel-title a {
+font-size: 18px;
+}
+.panel .panel-heading .panel-title h3 {
+font-size: 22px;
+}
+.panel-title {
+font-size: 14px;
+}
+.panel .panel-body ul {
+font-size: 17px;
+}
 }
 @media only screen and (min-width: 979px) and (max-width: 1180px) {
  body:before {
@@ -594,17 +613,29 @@ padding-left: 12px;
 padding-right: 12px;
 font-size: 13px;
 }
-.panel .panel-heading .panel-title a {
-font-size: 18px;
-}
 .panel-accordion > .panel-heading {
-height: 65px;
+height: 50px;
+padding-top: 15px;
 }
 .panel-accordion > .panel-heading.active {
-height: 65px;
+height: 50px;
+padding-top: 15px;
+}
+.panel .panel-heading .panel-title a {
+font-size: 15px;
 }
 .panel-filter-bottom > .panel-heading {
-height: 100px;
+height: 80px;
+padding-top: 10px;
+}
+.panel .panel-heading .panel-title h3 {
+font-size: 18px;
+}
+.panel-title {
+font-size: 14px;
+}
+.panel .panel-body ul {
+font-size: 14px;
 }
 }
 @media only screen and (max-width: 979px) {
